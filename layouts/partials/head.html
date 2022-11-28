@@ -211,14 +211,21 @@
         }
     }
 
+    /* You can customize theme styles here */
     #google-form {
-        width: 600px;
-        height: 500px;
+        width: 600px !important;
+        height: 500px !important;
     }
 
     @media (max-width: 1200px) {
         #google-form {
-            width: 400px;
+            width: 400px !important;
+        }
+    }
+
+    @media (max-width: 400px) {
+        #google-form {
+            width: 300px !important;
         }
     }
 </style>
