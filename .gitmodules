@@ -1,0 +1,6 @@
+[submodule "executebig"]
+	path = themes/executebig
+	url = https://github.com/executebig/www.git
+[submodule "KeepIt"]
+	path = KeepIt
+	url = https://github.com/Fastbyte01/KeepIt.git
