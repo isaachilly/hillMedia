@@ -4,3 +4,6 @@
 [submodule "KeepIt"]
 	path = KeepIt
 	url = https://github.com/Fastbyte01/KeepIt.git
+[submodule "themes/raditian"]
+	path = themes/raditian
+	url = https://github.com/radity/raditian-free-hugo-theme.git

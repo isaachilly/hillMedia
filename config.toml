@@ -1,162 +1,77 @@
-baseURL = "https://example.com"
-languageCode = "en"
-defaultContentLanguage = "en"
-title = "Hill Media"
-theme = "KeepIt"
+baseURL = "https://raditian-hugo.radity.com/"
+languageCode = "en-us"
+theme = "raditian"
 
-paginate = 12
-enableEmoji = true
-enableRobotsTXT = true
-[sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
+# Plugins
+[params.plugins]
 
-# [menu]
-#   [[menu.main]]
-#     name = "Home"
-#     url = "/"
-#     weight = 1
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+#   [[menu.header]]
+#   name = "About"
+#   URL = "#about"
+#   weight = 2
+
+#   [[menu.header]]
+#   name = "Portfolio"
+#   URL = "#portfolio"
+#   weight = 3
+
+  [[menu.header]]
+  name = "Submit"
+  URL = "#contact"
+  weight = 4
+
+
+#   [[menu.footer]]
+#   name = "About"
+#   URL = "#about"
+#   weight = 2
+
+#   [[menu.footer]]
+#   name = "Portfolio"
+#   URL = "#portfolio"
+#   weight = 3
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
+
 
 [params]
-    since = 2022
-    author = "Hill Media"               # Author's name
-    subtitle = "A new type of media"       # Subtitle
-    cdn_url = ""           # Base CDN URL
-    home_mode = "" # post or other
-    dateFormatToUse = "" # set date format, default "2 January 2006"
 
-    avatar = "/images/social.jpg" #comment it to use gravatar
-    socialShare = true
-
-    description = "Hill Media A NEW TYPE OF MEDIA" # site description
-    keywords = "" # site keywords
-    disableThemeToggle = true
-     defaultTheme = "light"
-
-# [params.gravatar]
-    #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar
+  sections = ["showcase","contact"]
+    # sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
 
 
-# [params.social]
-    # GitHub = "xxxx"
-    # Linkedin = "xxxx"
-    # Twitter = "xxxx"
-    #Instagram = "xxxx"
-    #Email   = "xxxx"
-    # Facebook = "xxxx"
-    #Telegram = "xxxx"
-    #Medium = "xxxx"
-    #Gitlab = "xxxx"
-    #Youtubelegacy = "xxxx"
-    #Youtubecustom = "xxxx"
-    #Youtubechannel = "xxxx"
-    #Tumblr ="xxxx"
-    #Quora = "xxxx"
-    #Keybase = "xxxx"
-    #Pinterest = "xxxx"
-    #Reddit = "xxxx"
-    #Codepen = "xxxx"
-    #Bitbucket = "xxxx"
-    #Stackoverflow = "xxxxx"
-    #Weibo = "xxxx"
-    #Odnoklassniki = "xxxx"
-    #VKontakte = "xxxx"
-    #Flickr = "xxxx"
-    #Xing = "xxxx"
-    #Snapchat = "xxxx"
-    #Soundcloud = "xxxx"
-    #Spotify = "xxxx"
-    #Bandcamp = "xxxx"
-    #Paypal = "xxxx"
-    #Fivehundredpx = "xxxx"
-    #Mix = "xxxx"
-    #Goodreads = "xxxx"
-    #Lastfm = "xxxx"
-    #Foursquare = "xxxx"
-    #Hackernews = "xxxx"
-    #Kickstarter = "xxxx"
-    #Patreon = "xxxx"
-    #Steam = "xxxx"
-    #Twitch = "xxxx"
-    #Strava = "xxxx"
-    #Skype = "xxxx"
-    #Whatsapp = "xxxx"
-    #Zhihu = "xxxx"
-    #Douban = "xxxx"
-    #Angellist = "xxxx"
-    #Slidershare = "xxxx"
-    #Jsfiddle = "xxxx"
-    #Deviantart = "xxxx"
-    #Behance = "xxxx"
-    #Dribble = "xxxx"
-    #Wordpress = "xxxx"
-    #Vine = "xxxx"
-    #Googlescholar = "xxxx"
-    #Researchgate = "xxxx"
-    #Mastodon = "xxxx"
-    #Thingiverse = "xxxx"
-
-[params.share]
-Twitter = true
-Facebook = true
-#Reddit = true
-# Linkedin = true
-#Pinterest = true
-#HackerNews = true
-#Mix = true
-#Tumblr = true
-#VKontakte = true
-#Douban = true
-#Weibo = true
-
-# Used only for Seo schema
-# copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-
-[author]
-  name = "Hill Media"
-
-  [params.publisher]
-    name = "Fastbyte01"
-
-    [params.publisher.logo]
-      url = "logo.png"
-      width = 127
-      height = 40
+#   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
   [params.logo]
-    url = "logo.png"
-    width = 127
-    height = 40
+    text1 = "Hill"
+    text2 = "Media"
 
-  [params.image]
-    url = "cover.png"
-    width = 800
-    height = 600
-
-[params.gitalk]
-owner = ""       # Your GitHub ID
-repo = ""        # The repo to store comments
-clientId = ""    # Your client ID
-clientSecret = "" # Your client secret
-
-[params.valine]
-  enable = false
-  language = 'en'
-  appId = 'your appId'
-  appKey = 'your appKey'
-  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
-  verify = false # Verification code
-  avatar = 'mm'
-  placeholder = 'your comments ...'
-  visitor = true
-
-[params.utterances]       # https://utteranc.es/
-    owner = ""              # Your GitHub ID
-    repo = ""               # The repo to store comments
-
-[params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-    owner = ""              # Your GitHub ID
-    repo = ""               # The repo to store comments
-    clientId = ""           # Your client ID
-    clientSecret = ""       # Your client secret
+  [params.footer]
+      copyright = "© Hill Media. All rights reserved."
+    #   [params.footer.radity_logo]
+    #     x = "img/general/design-and-code-radity.png"
+    #     _2x = "img/general/design-and-code-radity@2x.png"
+    #     alt = "Design & Code - Radity"
