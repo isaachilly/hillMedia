@@ -1,4 +1,4 @@
-baseURL = "https://raditian-hugo.radity.com/"
+baseURL = "https://hill-media.netlify.app"
 languageCode = "en-us"
 theme = "raditian"
 
