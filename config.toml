@@ -27,7 +27,7 @@ theme = "raditian"
 
 #   [[menu.header]]
 #   name = "About"
-#   URL = "#about"
+#   URL = "/about"
 #   weight = 2
 
 #   [[menu.header]]
@@ -43,7 +43,7 @@ theme = "raditian"
 
 #   [[menu.footer]]
 #   name = "About"
-#   URL = "#about"
+#   URL = "/about"
 #   weight = 2
 
 #   [[menu.footer]]

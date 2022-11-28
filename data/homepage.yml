@@ -1,13 +1,14 @@
 # homepage
 homepage:
   head:
-    title: "Home | Raditian"
+    title: "Home | Hill Media"
+    description: "A new type of media company"
 # showcase
 showcase:
   enable: true
   title: "Hello, we are Hill Media."
   subtitle: "A new type of media company"
-  description: "<a>We welcome you to submit your videos for our latest compilation campaign below using our form.</a>."
+  description: "<a>We welcome you to submit your videos for our latest compilation campaign below using our form.</a>"
   image:
     alt: "Showcase keyboard and mouse image"
     x: "img/showcase/showcase.png"
