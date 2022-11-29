@@ -6,9 +6,9 @@ homepage:
 # showcase
 showcase:
   enable: true
-  title: "Hello, we are Hill Media."
-  subtitle: "A new type of media company"
-  description: "<a>We welcome you to submit your videos for our latest competition below..</a>"
+  title: "Chance to win $10!"
+  subtitle: "Submit your videos using the form below ⬇"
+  description: "<a>We welcome you to submit your videos for our latest competition below.</a>"
   image:
     alt: "Showcase keyboard and mouse image"
     x: "img/showcase/showcase.png"
