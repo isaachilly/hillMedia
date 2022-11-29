@@ -8,7 +8,7 @@ showcase:
   enable: true
   title: "Hello, we are Hill Media."
   subtitle: "A new type of media company"
-  description: "<a>We welcome you to submit your videos for our latest compilation campaign below using our form.</a>"
+  description: "<a>We welcome you to submit your videos for our latest competition below..</a>"
   image:
     alt: "Showcase keyboard and mouse image"
     x: "img/showcase/showcase.png"
@@ -20,11 +20,12 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Submit"
-    URL: "https://radity.com/en/contact/"
+    # URL: '/#contact'
+    # URL: "/\#contact"
 
-  socialLinks:
-    - icon: "youtube"
-      URL: ""
+  # socialLinks:
+  #   - icon: "youtube"
+  #     URL: ""
 
     # - icon: "instagram"
     #   URL: "https://www.instagram.com/teamradity/"

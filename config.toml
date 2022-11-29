@@ -71,7 +71,7 @@ theme = "raditian"
 
   [params.footer]
       copyright = "© Hill Media. All rights reserved."
-    #   [params.footer.radity_logo]
-    #     x = "img/general/design-and-code-radity.png"
-    #     _2x = "img/general/design-and-code-radity@2x.png"
-    #     alt = "Design & Code - Radity"
+      [params.footer.radity_logo]
+        x = "/images/social.jpg"
+        _2x = "/images/social.jpg"
+        alt = "Hill Media - A new type of media"
