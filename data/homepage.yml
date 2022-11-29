@@ -209,16 +209,16 @@ contact:
     message: "Type your link here"
   phone:
     title: "Instructions"
-    number: "Please fill out this form to be in with a chance of winning $10. The video link can be a cloud based link (e.g. OneDrive) or a private YouTube video."
-  email:
-    title: ""
-    email: 'By submitting the video you accept that the submitted video could be used as part a YouTube video.'
+    number: "To sumbit via file upload follow this link: https://forms.gle/ZqNSxpce9CrHjyDE9"
+  # email:
+  #   title: ""
+  #   email: "Please fill out this form to be in with a chance of winning $10. The video link can be a cloud based link (e.g. OneDrive) or a private YouTube video."
   # address:
-  #   title: "Address"
-  #   address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
-  button:
-    icon: "icon-mail-fill"
-    btnText: "Send Message"
+  #   title: ""
+  #   address: 'By submitting the video you accept that the submitted video could be used as part a YouTube video.'
+  # button:
+  #   icon: "icon-mail-fill"
+  #   btnText: "Send Message"
 
 # newsletter
 newsletter:
