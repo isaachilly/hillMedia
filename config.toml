@@ -52,7 +52,7 @@ theme = "raditian"
 #   weight = 3
 
   [[menu.footer]]
-  name = "Contact"
+  name = "Submit"
   URL = "#contact"
   weight = 4
 

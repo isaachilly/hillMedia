@@ -244,6 +244,17 @@
         height: 100px;
         border-radius: 50px;
     }
+
+    @media (max-width: 1000px) {
+
+        #header-img {
+            visibility: hidden;
+        }
+
+        #header-img-cont {
+            visibility: collapse;
+        }
+    }
 </style>
 
 {{ range .Site.Params.plugins.css }}
